@@ -5,6 +5,7 @@ N-Pad compounds of 3 main elements: PCB, Bottom (main) part of the case and the 
 
 
 Features:
+
     -6 + 1 keys with awesome functions
     -Rotary encoder to modify volume and PLAY/PAUSE function when pressed (the 7th key).
     -128x32 OLED screen displaying the volume level
@@ -14,9 +15,7 @@ Features:
 
 Model of the N-Pad:
 
-![Model](IMG_8392.jpeg)
-
-<img src="IMG_8392.jpeg" alt="Popis" width="300"/>
+<img src="IMG_8392.jpeg" alt="Popis" width="360"/>
 
 The case is from 2 parts: The bottom part (includes space for PCB with raised platforms).
 The model shown a PCB with no parts on it, though contacts for keys visible.
