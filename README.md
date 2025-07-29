@@ -15,5 +15,8 @@ Features:
 Model of the N-Pad:
 
 ![Model](IMG_8392.jpeg)
+
+<img src="IMG_8392.jpeg" alt="Popis" width="300"/>
+
 The case is from 2 parts: The bottom part (includes space for PCB with raised platforms).
 The model shown a PCB with no parts on it, though contacts for keys visible.
