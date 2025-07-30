@@ -20,4 +20,4 @@ Model of the N-Pad:
 The case is from 2 parts: The bottom part (includes space for PCB with raised platforms). The top has cutouts for key switches, rotary encoder and can be easily taken off.
 Thanks to the detachable design, no screws are needed for assembly.
 
-Note: The model shown a PCB with no parts on it, though contacts for keys visible.
+Note: The model shown a PCB with no parts on it, though contacts for keys visible. Designed in OnShape.
