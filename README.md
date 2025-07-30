@@ -21,3 +21,10 @@ The case is from 2 parts: The bottom part (includes space for PCB with raised pl
 Thanks to the detachable design, no screws are needed for assembly.
 
 Note: The model shown a PCB with no parts on it, though contacts for keys visible. Designed in OnShape.
+
+
+PCB:
+
+PCB was designed in KiCad, consists of two layers.
+<img src="IMG_8399.jpeg" alt="Model" width="360"/>
+
