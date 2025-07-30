@@ -15,12 +15,19 @@ Features:
 
 Model of the N-Pad:
 
-<img src="Images/IMG_8392.jpeg" alt="Model" width="360"/>
+<img src="Images/IMG_8406.jpeg" alt="Model" width="360"/>
 
 The case is from 2 parts: The bottom part (includes space for PCB with raised platforms). The top has cutouts for key switches, rotary encoder as well as OLED screen and can be easily taken off.
+
+Bottom part:
+<img src="Images/IMG_8424.jpeg" alt="Schematic" width="360"/>
+
+To part:
+<img src="Images/IMG_8423.jpeg" alt="Schematic" width="360"/>
+
 Thanks to the detachable design, no screws are needed for assembly.
 
-Note: The model shown a PCB with no parts on it, though contacts for keys visible. Designed in OnShape.
+Note: The first image shown a PCB with no parts on it, though contacts for keys visible. Designed in OnShape.
 
 
 PCB:
