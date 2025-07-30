@@ -39,23 +39,23 @@ The N-Pad uses KMK firmware, loads of software updates coming, stay tuned!
 
 BOM:
 
-6 Cherry MX Switches
+    6 Cherry MX Switches
 
-6 DSA Keycaps
-
-6 1N4148 DO-35 Diodes.
-
-16 WS2812B LEDs 
-
-1 0.91" 128x32 OLED Display
-
-1 EC11 Rotary Encoder
-
-1 XIAO RP2040
-
-1 PCB
-
-1 Case (2 printed parts - detachable design - see CAD and Production folders)
-
-
-Designed in the UK, (will be) assembled in the Czech Republic, EU, with parts from more than one country (living in the Czech Repunlic but currently on a UK trip)
+    6 DSA Keycaps
+    
+    6 1N4148 DO-35 Diodes.
+    
+    16 WS2812B LEDs 
+    
+    1 0.91" 128x32 OLED Display
+    
+    1 EC11 Rotary Encoder
+    
+    1 XIAO RP2040
+    
+    1 PCB
+    
+    1 Case (2 printed parts - detachable design - see CAD and Production folders)
+    
+    
+Designed in the UK, (will be) assembled in the Czech Republic, EU, with parts from more than one country (living in the Czech Republic but currently on a UK trip)
