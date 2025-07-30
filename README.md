@@ -1,6 +1,6 @@
 N-Pad
 
-The N-Pad is a 7-key macropad, equipped with a rotary encoder, OLED screen and 16 addressable LED. The heart of this pad is XIAO RP2040, controlled via KMK firmware.
+The N-Pad is a 7-key macropad, equipped with a rotary encoder, OLED screen and 16 addressable LEDs. The heart of this pad is XIAO RP2040, controlled via KMK firmware.
 N-Pad compounds of 3 main elements: PCB, Bottom (main) part of the case and the top part.
 
 
@@ -17,7 +17,7 @@ Model of the N-Pad:
 
 <img src="Images/IMG_8392.jpeg" alt="Model" width="360"/>
 
-The case is from 2 parts: The bottom part (includes space for PCB with raised platforms). The top has cutouts for key switches, rotary encoder and can be easily taken off.
+The case is from 2 parts: The bottom part (includes space for PCB with raised platforms). The top has cutouts for key switches, rotary encoder as well as OLED screen and can be easily taken off.
 Thanks to the detachable design, no screws are needed for assembly.
 
 Note: The model shown a PCB with no parts on it, though contacts for keys visible. Designed in OnShape.
