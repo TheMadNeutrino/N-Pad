@@ -26,5 +26,5 @@ Note: The model shown a PCB with no parts on it, though contacts for keys visibl
 PCB:
 
 PCB was designed in KiCad, consists of two layers.
-<img src="IMG_8399.jpeg" alt="Model" width="360"/>
+<img src="Images/IMG_8399.jpeg" alt="Model" width="360"/>
 
