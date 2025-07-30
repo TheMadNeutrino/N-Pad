@@ -22,7 +22,7 @@ The case is from 2 parts: The bottom part (includes space for PCB with raised pl
 Bottom part:
 <img src="Images/IMG_8424.jpeg" alt="Schematic" width="360"/>
 
-To part:
+Top part (shown from the back side):
 <img src="Images/IMG_8423.jpeg" alt="Schematic" width="360"/>
 
 Thanks to the detachable design, no screws are needed for assembly.
