@@ -78,12 +78,12 @@ keyboard.extensions.append(rgb)
 # --- Keymap: 2x3 ---
 keyboard.keymap = [
     [
-        KC.CTRL_C,              # Kopírovat
-        KC.WIN_D,               # Zobrazit plochu
-        KC.CTRL_V,              # Vložit
-        KC.MEDIA_PLAY_PAUSE,    # Přehrát/Pauza
-        KC.CTRL_Z,              # Zpět
-        KC.CTRL_S               # Uložit
+        KC.CTRL_C,              # copy
+        KC.WIN_D,               # homescreen
+        KC.CTRL_V,              # paste
+        KC.MEDIA_PLAY_PAUSE,    # Play/Pause
+        KC.CTRL_Z,              # Undo
+        KC.CTRL_S               # Save
     ]
 ]
 
