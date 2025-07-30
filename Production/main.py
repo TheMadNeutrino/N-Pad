@@ -15,9 +15,9 @@ keyboard = KMKKeyboard()
 encoder_handler = EncoderHandler()
 keyboard.modules.append(encoder_handler)
 
-encoder_handler.pins = ((board.D3, board.D4, board.D5),)
+encoder_handler.pins = ((board.D3, board.D4), board.D2)
 
-keyboard.volume = 32  # Startovací hlasitost 0–100
+keyboard.volume = 35 # Start volume
 keyboard.is_muted = False
 
 def vol_up():
@@ -43,15 +43,14 @@ def draw_volume(oled):
     from kmk.handlers.sequences import simple_key_sequence
     from kmk.keys import KC
 
-    # Představme si, že máme proměnnou pro sledování mute
     if keyboard.is_muted:
         oled.write("Mute")
     else:
         oled.write(f"Volume: {keyboard.volume}")
 
-# OLED nastavení
+# OLED settings
 oled_ext = Oled(
-    i2c=board.I2C(),  # využije D6 (SDA), D7 (SCL) pokud máš základní setup
+    i2c=board.I2C(),  # Uses D6, D7
     width=128,
     height=32,
     to_display=draw_volume,
@@ -62,28 +61,26 @@ oled_ext = Oled(
 keyboard.extensions.append(oled_ext)
 
 
-# --- Define rows and columns (example pins, adjust if needed!) ---
-keyboard.col_pins = (board.A3, board.A2, board.A1)
-keyboard.row_pins = (board.D1, board.D2)
+# Define keys matrix
+keyboard.col_pins = (board.A0, board.A1, board.A2)
+keyboard.row_pins = (board.D29, board.D0)
 
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
-# --- Add MediaKeys (optional) ---
 keyboard.extensions.append(MediaKeys())
 
-# --- RGB setup ---
-rgb = RGB(pixel_pin=board.D0, num_pixels=16, hue_default=100)
+# LEDs
+rgb = RGB(pixel_pin=board.D1, num_pixels=16, hue_default=64)
 keyboard.extensions.append(rgb)
 
-# --- Keymap: 2x3 ---
 keyboard.keymap = [
     [
-        KC.CTRL_C,              # Kopírovat
-        KC.WIN_D,               # Zobrazit plochu
-        KC.CTRL_V,              # Vložit
-        KC.MEDIA_PLAY_PAUSE,    # Přehrát/Pauza
-        KC.CTRL_Z,              # Zpět
-        KC.CTRL_S               # Uložit
+        KC.CTRL_C,              # copy
+        KC.WIN_D,               # homescreen
+        KC.CTRL_V,              # paste
+        KC.MEDIA_PLAY_PAUSE,    # Play/Pause
+        KC.CTRL_Z,              # Undo
+        KC.CTRL_S               # Save
     ]
 ]
 
