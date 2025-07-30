@@ -58,4 +58,4 @@ BOM:
 1 Case (2 printed parts - detachable design - see CAD and Production folders)
 
 
-Designed in the UK, assembled in the Czech Republic, EU, with parts from more than one country (living in the Czech Repunlic but currently on a UK trip)
+Designed in the UK, (will be) assembled in the Czech Republic, EU, with parts from more than one country (living in the Czech Repunlic but currently on a UK trip)
