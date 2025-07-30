@@ -44,6 +44,8 @@ Firmware:
 
 The N-Pad uses KMK firmware, loads of software updates coming, stay tuned!
 
+Keys curretnly represents these functions: Copy, Paste, Homescreen, Play/Pause, Undo, Save
+
 BOM:
 
     6 Cherry MX Switches
